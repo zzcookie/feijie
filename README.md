@@ -1,12 +1,12 @@
-# 飛捷Feijie
+
 <h1>飛捷廣告Feijie</h1>
 <html>
 <head>
-<title>下拉菜单实例|本教程(w3big.com)</title>
+<title>下拉菜单</title>
 <meta charset="utf-8">
 <style>
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #82b0e8;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -56,10 +56,7 @@
     <a href="http://www.w3big.com">訂購量試算與訂購紀錄</a>
   </div>
 </div>
-
-</body>
-</html>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <div class="dropdown">
   <button class="dropbtn">人員管理</button>
@@ -67,6 +64,8 @@
     <a href="http://www.w3big.com">員工績效評估</a>
     <a href="http://www.w3big.com">自動化排班</a>
  </div>
+     </div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="dropdown">
   <button class="dropbtn">行銷管理</button>
   <div class="dropdown-content">
