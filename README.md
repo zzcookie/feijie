@@ -75,25 +75,3 @@
 </div>
     
     
-// 建立MySQL的資料庫連接 
-$link = mysqli_connect("localhost", "root", "1234") 
-        or die("無法開啟MySQL資料庫連接!<br/>");
-// 指定開啟的資料庫名稱myschool
-$dbname = "test";
-// 開啟指定的資料庫
-if ( !mysqli_select_db($link, $dbname) )
-   die("無法開啟 $dbname 資料庫!<br/>");
-else
-   echo "資料庫: $dbname 開啟成功!<br/>";
-mysqli_close($link);  // 關閉資料庫連接
-    
-// 建立MySQL的資料庫連接 
-$link = mysqli_connect("localhost","root",
-                       "1234","test")
-        or die("無法開啟MySQL資料庫連接!<br/>");
-echo "資料庫test開啟成功!<br/>";
-$sql = "INSERT INTO `account`(`name`, `tel`, `birthday`, `address`, `id`) VALUES (\"1234\",\"1234\",\"2016-12-22\",\"123\",\"003\")"; // 指定SQL字串
-echo "SQL字串: $sql <br/>";
-//送出UTF8編碼的MySQL指令
-mysqli_query($link, 'SET NAMES utf8'); 
-mysqli_query($link, $sql);
