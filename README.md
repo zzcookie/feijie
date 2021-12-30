@@ -73,3 +73,16 @@
     <a href="http://">行銷分析</a>
   </div>
 </div>
+    
+    
+// 建立MySQL的資料庫連接 
+$link = mysqli_connect("localhost", "root", "1234") 
+        or die("無法開啟MySQL資料庫連接!<br/>");
+// 指定開啟的資料庫名稱myschool
+$dbname = "test";
+// 開啟指定的資料庫
+if ( !mysqli_select_db($link, $dbname) )
+   die("無法開啟 $dbname 資料庫!<br/>");
+else
+   echo "資料庫: $dbname 開啟成功!<br/>";
+mysqli_close($link);  // 關閉資料庫連接
