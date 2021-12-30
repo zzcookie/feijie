@@ -52,8 +52,8 @@
 <div class="dropdown">
   <button class="dropbtn">耗材管理</button>
   <div class="dropdown-content">
-    <a href="http://www.w3big.com">耗材查詢與管理</a>
-    <a href="http://www.w3big.com">訂購量試算與訂購紀錄</a>
+    <a href="http://">耗材查詢與管理</a>
+    <a href="http://">訂購量試算與訂購紀錄</a>
   </div>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -61,15 +61,15 @@
 <div class="dropdown">
   <button class="dropbtn">人員管理</button>
   <div class="dropdown-content">
-    <a href="http://www.w3big.com">員工績效評估</a>
-    <a href="http://www.w3big.com">自動化排班</a>
+    <a href="http://">員工績效評估</a>
+    <a href="http://">自動化排班</a>
  </div>
      </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="dropdown">
   <button class="dropbtn">行銷管理</button>
   <div class="dropdown-content">
-    <a href="http://www.w3big.com">顧客關係管理</a>
-    <a href="http://www.w3big.com">行銷分析</a>
+    <a href="http://">顧客關係管理</a>
+    <a href="http://">行銷分析</a>
   </div>
 </div>
