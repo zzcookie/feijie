@@ -41,7 +41,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #82b0e8;
 }
 </style>
 </head>
