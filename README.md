@@ -53,7 +53,7 @@
   <button class="dropbtn">耗材管理</button>
   <div class="dropdown-content">
     <a href="https://zzcookie.github.io/feijie1/">耗材查詢與管理</a>
-    <a href="http://">訂購量試算與訂購紀錄</a>
+    <a href="https://zzcookie.github.io/feijie2/">訂購量試算與訂購紀錄</a>
   </div>
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
