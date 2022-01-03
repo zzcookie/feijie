@@ -89,7 +89,7 @@
         $(function() {
             $.ajax({
                 type: "GET",
-                url: "db/test.db",
+                url: "Feijie.db",
                 success: function(data) {
                     console.info("檔案讀取成功了：" + data);
 //                  var fr = new FileReader();
