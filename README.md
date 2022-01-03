@@ -75,8 +75,21 @@
 </div>
   
     <div style="width:300px;height:250px;overflow:auto;">
-您要輸入的內容
+
 </div>
-  
+  <div class="wrap">
+  <div class="topbox">
+    this is header
+  </div>
+  <div class="boxBottom">
+    <div class="boxLeft">
+      <p>您要輸入的內容 </p>
+    </div>
+    <div class="boxRight">
+      <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+    </div>
+  </div>
+
+</div>
     
     
