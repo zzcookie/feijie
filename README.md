@@ -73,5 +73,6 @@
     <a href="https://zzcookie.github.io/feijie6/">行銷分析</a>
   </div>
 </div>
-  
+ 
+    [os.path.join(BASE_DIR, 'templates').replace('\\', '/')]
     
