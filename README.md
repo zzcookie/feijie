@@ -74,5 +74,34 @@
   </div>
 </div>
  
-    [os.path.join(BASE_DIR, 'templates').replace('\\', '/')]
-    
+   <!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+        <script type="text/javascript" src="js/sql.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    </head>
+
+    <body>
+
+    </body>
+    <script>
+        //建立sqllite例項，獲取資料
+        $(function() {
+            $.ajax({
+                type: "GET",
+                url: "db/test.db",
+                success: function(data) {
+                    console.info("檔案讀取成功了：" + data);
+//                  var fr = new FileReader();
+                    var uInt8Array = new Uint8Array(data);
+                    var db = new SQL.Database(uInt8Array);
+                    console.log("------db"+db);
+                    var contents = db.exec("SELECT * from test");
+                    console.log("------content"+content);
+                }
+            });
+        });
+    </script>
+
+</html>
