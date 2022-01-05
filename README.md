@@ -50,27 +50,21 @@
 <h2>功能列表</h2>
 
 <div class="dropdown">
-  <button class="dropbtn">耗材管理</button>
+  <button class="dropbtn">作業管理</button>
   <div class="dropdown-content">
     <a href="https://zzcookie.github.io/feijie1/">耗材查詢與管理</a>
     <a href="https://zzcookie.github.io/feijie2/">訂購量試算與訂購紀錄</a>
+    <a href="https://zzcookie.github.io/feijie3/">員工績效評估</a>
   </div>
 </div>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<div class="dropdown">
-  <button class="dropbtn">人員管理</button>
-  <div class="dropdown-content">
-    <a href="https://zzcookie.github.io/feijie3/">員工績效評估</a>
-    <a href="https://zzcookie.github.io/feijie4/">自動化排班</a>
- </div>
-     </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="dropdown">
   <button class="dropbtn">行銷管理</button>
   <div class="dropdown-content">
+    <a href="https://zzcookie.github.io/feijie4/">顧客查詢</a>  
     <a href="https://zzcookie.github.io/feijie5/">顧客關係管理</a>
     <a href="https://zzcookie.github.io/feijie6/">行銷分析</a>
+      
   </div>
 </div>
  
